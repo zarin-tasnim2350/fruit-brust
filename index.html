@@ -49,7 +49,7 @@
         <!--navbar starts-->
 
 
-        <nav class="lg:w-[1440px] mx-auto sm:w-full flex justify-between rounded-full px-10 py-3 mt-9 text-white bg-[#F85559;] items-center">
+        <nav class="lg:w-[1440px] mx-auto sm:w-full flex lg:flex-row  flex-col justify-between rounded-full px-10 py-3 mt-9 text-white bg-[#F85559;] items-center">
             <div>
                 <ul class="flex justify-between gap-4 lato-regular text-base">
                     <li>Home</li>
@@ -63,7 +63,7 @@
                 <h2 class="lato-bold text-4xl">Fruit Brust</h2>
             </div>
             <div class="relative">
-                <input class="rounded-full text-xs px-3 py-2 " type="text" placeholder="Search here"> <i class="fa-solid text-red-500 absolute start-[130px] top-[10px] fa-magnifying-glass"></i>
+                <input class=" text-black rounded-full text-xs px-3 py-2 " type="text" placeholder="Search here"> <i class="fa-solid text-gray-500 absolute start-[130px] top-[10px] fa-magnifying-glass cursor-pointer"></i>
             </div>
         </nav>
 
@@ -73,7 +73,7 @@
 
         <!--first section starts-->
 
-        <section class="relative">
+        <section class="lg:relative">
             <div class="carousel lg:ml-10 lg:w-[1440px]  mx-auto lg:my-10">
                 <div id="slide1" class="flex flex-col items-center carousel-item relative w-full bg-blend-overlay bg-opacity-60" style="background-image: url(images/banner1.png);">
                   <!-- <div class=" text-center text-neutral-content">
@@ -127,16 +127,16 @@
                   </div>
                 </div>
               </div>
-              <div class=" absolute bottom-0 start-[180px] items-center bg-white  lg:flex justify-between gap-3 w-9/12 shadow-lg p-5 ">
-               <div class="text-center"><img src="images/fruit1.png" alt="">
+              <div class=" lg:absolute lg:bottom-0 lg:start-[180px] items-center bg-white  lg:flex justify-between lg:gap-3 lg:w-9/12 shadow-lg p-5 ">
+               <div class="flex flex-col items-center justify-center"><img src="images/fruit1.png" alt="">
             <h6>Strawberry</h6></div>
-               <div class="text-center"><img src="images/fruit2.png" alt="">
+               <div class="flex flex-col items-center justify-center"><img src="images/fruit2.png" alt="">
             <h6>Orange</h6></div>
-               <div class="text-center"><img src="images/fruit3.png" alt="">
+               <div class="flex flex-col items-center justify-center"><img src="images/fruit3.png" alt="">
             <h6>Mango</h6></div>
-               <div class="text-center"><img src="images/fruit4.png" alt="">
+               <div class="flex flex-col items-center justify-center"><img src="images/fruit4.png" alt="">
             <h6>Strawberry</h6></div>
-               <div class="text-center"><img src="images/fruit5.png" alt="">
+               <div class="flex flex-col items-center justify-center"><img src="images/fruit5.png" alt="">
             <h6>Mango</h6></div>
 
               </div>
@@ -147,8 +147,8 @@
 
         <!--card section starts-->
 
-        <section class="mt-40 w-9/12 mx-auto">
-          <div class="flex justify-between gap-8">
+        <section class="lg:mt-40 lg:w-9/12 mx-auto">
+          <div class="flex lg:flex-row flex-col justify-between gap-8">
             <div class="">
               <h1 class="mb-3 lato-black font-extrabold text-5xl">Deal of the day</h1>
               <p class="lato-regular text-[16px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -182,7 +182,7 @@
           </div>
           <div>
             <div class="flex justify-between gap-4 lg:flex-row flex-col">
-              <div class="card  card-compact w-96 bg-base-100 shadow-xl lg:mt-20">
+              <div class="card  card-compact lg:w-96 bg-base-100 shadow-xl lg:mt-20">
                 <figure><img src="images/fruit6.png" alt="Shoes" /></figure>
                 <div class="card-body">
                   <h2 class="lato-bold text-2xl text-center">12.90$ - 18.85$</h2>
@@ -286,29 +286,29 @@
         <!--card section ends-->
 
         <!--team section starts-->
-        <section class="w-full mt-8">
-          <div class="relative w-9/12 mx-auto">
-            <img src="images/team.png" alt="Your Image" class="w-full h-auto" />
+        <section class="w-full h-auto lg:mt-8 lg:mb-8">
+          <div class="relative lg:w-9/12 lg:mx-auto">
+            <img src="images/team.png" alt="Your Image" class="lg:w-full lg:h-auto" />
           
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
           
             <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-              <h1 class="lato-black text-5xl up">Meet the team section</h1>
+              <h1 class="lato-black lg:text-5xl up">Meet the team section</h1>
               <p class="lato-regular text-xs mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-              <div class="flex lg:flex-row flex-col justify-evenly gap-5">
+              <div class="flex lg:flex-row flex-col justify-evenly lg:gap-5">
                 <div >
                   <img src="images/member1.png" alt="">
                   <h1 class="mt-3">Awlad Hossain</h1>
                   <p>Fruits Expert</p>
-                  <div class="m-3" >
+                  <div class="lg:m-3" >
                     <i class="fa-brands fa-facebook mr-1"></i><i class="fa-brands fa-twitter ml-1 mr-1"></i><i class="fa-brands fa-linkedin ml-1"></i>
                   </div>
                 </div>
                 <div>
                   <img src="images/member2.png" alt="">
-                  <h1 class="mt-3">Safia Chowdhury</h1>
+                  <h1 class="lg:mt-3">Safia Chowdhury</h1>
                   <p>Fruits Expert</p>
-                  <div class="m-3" >
+                  <div class="lg:m-3" >
                     <i class="fa-brands fa-facebook mr-1"></i><i class="fa-brands fa-twitter ml-1 mr-1"></i><i class="fa-brands fa-linkedin ml-1"></i>
                   </div>
                 </div>
@@ -316,7 +316,7 @@
                   <img src="images/member3.png" alt="">
                   <h1 class="mt-3">Rokib Hossain</h1>
                   <p>Fruits Expert</p>
-                  <div class="m-3" >
+                  <div class="lg:m-3" >
                     <i class="fa-brands fa-facebook mr-1"></i><i class="fa-brands fa-twitter ml-1 mr-1"></i><i class="fa-brands fa-linkedin ml-1"></i>
                   </div>
                 </div>
@@ -324,7 +324,7 @@
                   <img src="images/member4.png" alt="">
                   <h1 class="mt-3">Chaity</h1>
                   <p>Fruits Expert</p>
-                  <div class="m-3" >
+                  <div class="lg:m-3" >
                     <i class="fa-brands fa-facebook mr-1"></i><i class="fa-brands fa-twitter ml-1 mr-1"></i><i class="fa-brands fa-linkedin ml-1"></i>
                   </div>
                 </div>
@@ -335,6 +335,87 @@
           </div>
         </section>
         <!--team section ends-->
+
+        <!--why section starts-->
+        <section class="w-full mb-20">
+          <div class="text-center mb-10">
+            <h1 class="lato-black text-black text-5xl mb-2">Why Choose Us</h1>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+          </div>
+
+          <div class="flex lg:flex-row flex-col justify-between gap-5 lg:w-[1440px] mx-auto">
+             
+            <div>
+              <div class="flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+              <div class="flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+              <div class="flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+
+            </div>
+            <div><img src="images/whychoose1.png" alt=""></div>
+            <div>
+              <div class="flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+              <div class="flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+              <div class=" mt-2 flex  justify-between gap-5">
+                <div class=""><span><i class="fa-solid fa-user-group"></i></span></div>
+              <div> 
+                  
+                  <h1 class="lato-bold ">Dedicated Team</h1>
+               
+                <div class="divider"></div>
+                <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- why section ends -->
         
         
 
